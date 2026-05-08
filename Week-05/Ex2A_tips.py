@@ -19,4 +19,4 @@ print("Food cost is " + str(food_cost) + " and tax is " + str(tax))
 # Improved formatting for tip (always shows 2 decimal places)
 print("Tip is " + format(tip, ".2f"))
 
-print("Total due is " + str(total_due))
+print(f"Total due is ${total_due:.2f}")
